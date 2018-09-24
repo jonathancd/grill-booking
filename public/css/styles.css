@@ -1,0 +1,222 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+input.form-control{
+    font-weight: bold;
+}
+
+
+#map{
+    height: 400px;
+}
+
+
+.align-flex-right{
+    justify-content: flex-end;
+}
+
+.auth-links {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.auth-links > ul{
+    padding: 0px;
+}
+
+.auth-links > ul > li{
+    /*background:rgba(255,255,255,0.5);*/
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    list-style: none;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.auth-links > ul > li > a{
+    color: #fff;
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.background{
+    background: url('../images/barbecue-wallpapers.jpg');
+    background: url('../images/grillbild.jpg');
+    /*background: url('../images/background.jpg');*/
+}
+
+.barbecue-feature{
+    font-size: 18px;
+}
+.barbecue-price{
+    color: gold;
+}
+
+.barbecue-specifics{
+    text-align: justify;
+}
+.barbecue-specifics > p{
+    margin-bottom: 0;
+}
+.barbecue-specifics > p > b{
+    font-size: 18px;
+}
+
+
+.border-r0{
+    border-radius: 0;
+}
+
+.card-info{
+    font-weight: 600;
+}
+
+.content {
+    /*background:rgba(255,255,255,0.5);*/
+    /*overflow: hidden;*/
+    overflow-wrap: break-word;
+    text-align: center;
+    width: 90%;
+}
+
+.copyright{
+    bottom: 15px;
+    color: #fff;
+    position: absolute;
+}
+
+.datepicker td, .datepicker th{
+    font-weight: bold;
+}
+
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.marker-popup-image{
+    text-align: center;
+}
+
+.marker-popup-image > img{
+    width: 30%;
+}
+
+.modal, .modal-title{
+    font-weight: bold;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.text-background-transparent{
+    background:rgba(0,0,0,0.5);
+}
+
+.title {
+    color: #fff;
+    /*color: #636b6f;*/
+    margin-bottom: 30px;
+    
+}
+.title h2{
+    background:rgba(0,0,0,0.5);
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 5px 50px;
+}
+.title p{
+    display: inline-block;
+    font-size: 28px;
+    padding: 5px 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .title h2{
+        font-size: 48px;
+    }
+    
+    .title p{
+        font-size: 18px;
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    
+    .title h2{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .title p{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .auth-links > ul > li{
+        /*margin-top: 25px;*/
+        width: 75%;
+    }
+
+    .auth-links > ul > li > a{
+        font-size: 12px;
+    }
+
+
+    .auth-links{
+        position: relative;
+        right: auto;
+    }
+} 
+@media only screen and (max-height: 1024px) {
+  #history{
+    min-height: 700px;
+  }
+}
+@media only screen and (max-height: 850px) {
+  #history{
+    min-height: 550px;
+  }
+}
+@media only screen and (max-height: 750px) {
+  #history{
+    min-height: 500px;
+  }
+}
+@media only screen and (max-height: 700px) {
+  #history{
+    min-height: 425px;
+  }
+}
+@media only screen and (max-height: 600px) {
+  #history{
+    min-height: 400px;
+  }
+}
+@media only screen and (max-height: 500px) {
+  #history{
+    min-height: 300px;
+  }
+}
+
